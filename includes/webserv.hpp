@@ -8,6 +8,8 @@
 #include <unistd.h>
 #include <fstream>
 #include <exception>
+#include <map>
+#include <stack>
 
 #define PORT 1212
 #define BUFFER_SIZE 1024
