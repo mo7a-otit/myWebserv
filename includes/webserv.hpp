@@ -1,6 +1,7 @@
 #ifndef WEBSERV_HPP
 #define WEBSERV_HPP
 
+
 #include <iostream>
 #include <string>
 #include <sys/socket.h>
@@ -14,5 +15,6 @@
 #define PORT 1212
 #define BUFFER_SIZE 1024
 
+#include "getFile.hpp"
 
 #endif

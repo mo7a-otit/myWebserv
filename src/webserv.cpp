@@ -1,4 +1,4 @@
-#include "../includes/getFile.hpp"
+#include "../includes/webserv.hpp"
 
 int main(int ac, char **av){
     if (ac == 2){

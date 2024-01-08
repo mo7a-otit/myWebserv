@@ -1,7 +1,7 @@
 NAME = webServ
-FILES = src/webserv.cpp src/Getfile.cpp
+FILES = src/webserv.cpp src/Getfile.cpp src/parseConf.cpp
 
-CPPFLAGS = -Wall -Wextra -Werror -std=c++98 #-fsanitize=address -g3
+CPPFLAGS = -Wall -Wextra -Werror -std=c++98 -fsanitize=address -g3
 CXX = c++
 OBJ = $(FILES:.cpp=.o)
 
