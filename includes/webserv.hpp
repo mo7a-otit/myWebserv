@@ -2,6 +2,8 @@
 #define WEBSERV_HPP
 
 
+
+#include <vector>
 #include <iostream>
 #include <string>
 #include <sys/socket.h>
@@ -12,9 +14,10 @@
 #include <map>
 #include <stack>
 
+
 #define PORT 1212
 #define BUFFER_SIZE 1024
 
-#include "getFile.hpp"
+#include "Server.hpp"
 
 #endif

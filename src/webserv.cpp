@@ -1,10 +1,10 @@
 #include "../includes/webserv.hpp"
 
 int main(int ac, char **av){
-    if (ac == 2){
+     if (ac == 2){
         try{
-            Getfile file;
-            file.getConfigFile(av[1]);
+            Server file;
+            file.get_file(av[1]);
         }
         catch(std::exception& e){
             std::cout << "Error: " << e.what()
@@ -16,10 +16,6 @@ int main(int ac, char **av){
             << std::endl;
     }
 }
-
-
-
-
 
 
 

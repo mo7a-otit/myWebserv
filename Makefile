@@ -1,5 +1,5 @@
 NAME = webServ
-FILES = src/webserv.cpp src/Getfile.cpp src/parseConf.cpp
+FILES = src/webserv.cpp src/Server.cpp 
 
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98 -fsanitize=address -g3
 CXX = c++
